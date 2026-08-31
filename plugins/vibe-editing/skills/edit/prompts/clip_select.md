@@ -6,6 +6,14 @@ HOW to open, exit, and structure each one. Return only the clip-worthy candidate
 THIS IS FOR CLIPS ONLY — NOT Q&A or hotline (those have their own selector). If the transcript
 is a guest-interview Q&A / hotline call-in, say so and return an empty candidate list.
 
+## BRAND PREFERENCE (Ignite Decon)
+- Open straight into the action — this is already the highest-lift default below (cut_to_payoff /
+  kept_source_open), so no change needed; just don't soften it with a slow wind-up.
+- Prefer an exit that leaves the viewer with something to DO: rank imperative_button (a short
+  command that resolves the arc) above punchline_peak when the source honestly supports either —
+  it reads as a call-to-action. Still never force this over what the take actually gives you;
+  a real punchline_peak beats a forced/awkward imperative_button.
+
 ## WHY THESE RULES — they are data-backed
 Derived from 602 finished reels matched back to their raw long-form source (transcript→
 transcript diff of what editors KEPT / CUT / RELOCATED). Each tag below carries a LIFT =
