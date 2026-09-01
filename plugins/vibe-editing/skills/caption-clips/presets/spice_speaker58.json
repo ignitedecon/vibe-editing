@@ -30,13 +30,13 @@
   "auto_size": {},
   "_italic_note": "Gentle x-shear (\\fax) instead of synthetic oblique (\\i1). -0.12 ~= 7deg forward/RIGHT (positive fax leans LEFT/backslant in libass); \\i1 ~= 12deg read too leaned (user 2026-06-03). True italic .otf files are also in fonts_dir if real italic letterforms are ever wanted.",
   "italic_fax": -0.12,
-  "_color_note": "COLOR = whose voice. White = Speaker's own voice. Yellow = a different voice (live Q&A guest, or Speaker impersonating a customer/objection). Drive via the style stream's per-word 'c' or top-level voice_spans.",
+  "_color_note": "COLOR = whose voice. White = Speaker's own voice. Brand flame-orange = a different voice (live Q&A guest, or Speaker impersonating a customer/objection). Drive via the style stream's per-word 'c' or top-level voice_spans. Guest + number_color set 2026-09-01 to match the Ignite Decon logo (flame orange/gold badge) — kept in sync with spice.json so the single-speaker default pipeline doesn't silently ship the wrong brand color.",
   "colors": {
     "speaker": "FFFFFF",
-    "guest": "FECB00"
+    "guest": "F0501F"
   },
   "default_voice": "speaker",
-  "number_color": null,
+  "number_color": "F0501F",
   "_layout_note": "y 50% = mid-frame, DATA-DRIVEN (2026-06-10): measured across the reference editor's 24 workshop Q&A clips (599 shots, training/height_study) \u2014 his overall median caption-Y is ~49.7%, his dominant medium/closeup tight-shot anchor is ~50%, and he NEVER goes below ~50%. (Old 55 sat too low.) This static default is for renders with NO layout track; when a layout track IS present (caption-app, and /edit which now runs layout_analyze on its reframed output), each shot's Y is per-angle: WIDE 45% / TIGHT 50%. Chunk caps LOCKED: <=18 displayed chars AND <=3 words, hard-broken at every sentence (.?!) and clause (,). For 1080x1920 set video 1080x1920 and font_size_px ~75.",
   "layout": {
     "y_percent_from_top": 58,
